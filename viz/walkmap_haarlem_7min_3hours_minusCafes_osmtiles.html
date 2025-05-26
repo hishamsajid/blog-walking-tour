@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_77f3173a1cdb74c28caa1e16d971abd7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_77f3173a1cdb74c28caa1e16d971abd7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_77f3173a1cdb74c28caa1e16d971abd7 = L.map(
+                "map_77f3173a1cdb74c28caa1e16d971abd7",
+                {
+                    center: [52.3803511, 4.640344799999998],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_26ce8d6626e609e9fd5146362ae38ab7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_26ce8d6626e609e9fd5146362ae38ab7.addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+            var circle_marker_fff3e8f7efa15f4c1018f496a37abdc5 = L.circleMarker(
+                [52.3803511, 4.640344799999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_3b7def5cca21297aab5a5cc9a1291a86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef690fdcca5285861f3067aa7af3d7b8 = $(`<div id="html_ef690fdcca5285861f3067aa7af3d7b8" style="width: 100.0%; height: 100.0%;">1. Teylers Museum</div>`)[0];
+                popup_3b7def5cca21297aab5a5cc9a1291a86.setContent(html_ef690fdcca5285861f3067aa7af3d7b8);
+            
+        
+
+        circle_marker_fff3e8f7efa15f4c1018f496a37abdc5.bindPopup(popup_3b7def5cca21297aab5a5cc9a1291a86)
+        ;
+
+        
+    
+    
+            var circle_marker_82e66c35362a0b468bae4904e8bbe2af = L.circleMarker(
+                [52.3800082, 4.6387061],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_5fef146e1176c7f274cf547dfab8b462 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5904094cf12a4dd968349b09c48482f9 = $(`<div id="html_5904094cf12a4dd968349b09c48482f9" style="width: 100.0%; height: 100.0%;">2. BALI PARASOL imported by Heli Views</div>`)[0];
+                popup_5fef146e1176c7f274cf547dfab8b462.setContent(html_5904094cf12a4dd968349b09c48482f9);
+            
+        
+
+        circle_marker_82e66c35362a0b468bae4904e8bbe2af.bindPopup(popup_5fef146e1176c7f274cf547dfab8b462)
+        ;
+
+        
+    
+    
+            var circle_marker_d4bdd5822284e0d1dbabd94899fb7116 = L.circleMarker(
+                [52.38051730000001, 4.6392855],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_60b928ef989598185b03e3e3661ccc1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc5e6432f8b37d4f4bbe17b70a00ff51 = $(`<div id="html_bc5e6432f8b37d4f4bbe17b70a00ff51" style="width: 100.0%; height: 100.0%;">3. Antiquariaat De Vries en De Vries</div>`)[0];
+                popup_60b928ef989598185b03e3e3661ccc1b.setContent(html_bc5e6432f8b37d4f4bbe17b70a00ff51);
+            
+        
+
+        circle_marker_d4bdd5822284e0d1dbabd94899fb7116.bindPopup(popup_60b928ef989598185b03e3e3661ccc1b)
+        ;
+
+        
+    
+    
+            var circle_marker_b9ea2fc0fb07582b0e519403222334a1 = L.circleMarker(
+                [52.37957600000001, 4.636320400000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_479d8a7fa9094e530c09ca785684320d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dc882ea7c428f6d7a52f854858cd115 = $(`<div id="html_5dc882ea7c428f6d7a52f854858cd115" style="width: 100.0%; height: 100.0%;">4. Laporte Lijsten & Galerie</div>`)[0];
+                popup_479d8a7fa9094e530c09ca785684320d.setContent(html_5dc882ea7c428f6d7a52f854858cd115);
+            
+        
+
+        circle_marker_b9ea2fc0fb07582b0e519403222334a1.bindPopup(popup_479d8a7fa9094e530c09ca785684320d)
+        ;
+
+        
+    
+    
+            var circle_marker_2dd6ccb88dea2dc118666ee6da6db7ca = L.circleMarker(
+                [52.3782319, 4.6357683],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_0844b8fc41e8b62fc59b63c444b687c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76ba794cfcb25d5435c8b20678ec7e7f = $(`<div id="html_76ba794cfcb25d5435c8b20678ec7e7f" style="width: 100.0%; height: 100.0%;">5. Arts Center Haarlem</div>`)[0];
+                popup_0844b8fc41e8b62fc59b63c444b687c6.setContent(html_76ba794cfcb25d5435c8b20678ec7e7f);
+            
+        
+
+        circle_marker_2dd6ccb88dea2dc118666ee6da6db7ca.bindPopup(popup_0844b8fc41e8b62fc59b63c444b687c6)
+        ;
+
+        
+    
+    
+            var circle_marker_55d884863fbda594138be0fd48408a01 = L.circleMarker(
+                [52.3774229, 4.636914],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_6c6e66766d89a3607cbbb923f8fde593 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b4ba4471b676f389afe82ebd69b16ff = $(`<div id="html_8b4ba4471b676f389afe82ebd69b16ff" style="width: 100.0%; height: 100.0%;">6. Parkeergarage de Kamp</div>`)[0];
+                popup_6c6e66766d89a3607cbbb923f8fde593.setContent(html_8b4ba4471b676f389afe82ebd69b16ff);
+            
+        
+
+        circle_marker_55d884863fbda594138be0fd48408a01.bindPopup(popup_6c6e66766d89a3607cbbb923f8fde593)
+        ;
+
+        
+    
+    
+            var circle_marker_11414e2351fb0ba151bd44f90c017ca9 = L.circleMarker(
+                [52.3772354, 4.6343407],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_dcf96f77a519f3ece336b7ea42b98c80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9a1b0f56ee3d316c8b28b57e37977ba = $(`<div id="html_a9a1b0f56ee3d316c8b28b57e37977ba" style="width: 100.0%; height: 100.0%;">7. 37PK</div>`)[0];
+                popup_dcf96f77a519f3ece336b7ea42b98c80.setContent(html_a9a1b0f56ee3d316c8b28b57e37977ba);
+            
+        
+
+        circle_marker_11414e2351fb0ba151bd44f90c017ca9.bindPopup(popup_dcf96f77a519f3ece336b7ea42b98c80)
+        ;
+
+        
+    
+    
+            var circle_marker_7379f575bae5381172980e77fd9008f8 = L.circleMarker(
+                [52.3770731, 4.634051200000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_b996c2e012b8411d240a8662eaaab6c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a12557c4a5225842c1f6bbb42fa9436a = $(`<div id="html_a12557c4a5225842c1f6bbb42fa9436a" style="width: 100.0%; height: 100.0%;">8. ABC Architectuurcentrum Haarlem</div>`)[0];
+                popup_b996c2e012b8411d240a8662eaaab6c5.setContent(html_a12557c4a5225842c1f6bbb42fa9436a);
+            
+        
+
+        circle_marker_7379f575bae5381172980e77fd9008f8.bindPopup(popup_b996c2e012b8411d240a8662eaaab6c5)
+        ;
+
+        
+    
+    
+            var circle_marker_ebb5107c5f629bce16b9611c0eab27e4 = L.circleMarker(
+                [52.377085, 4.634072999999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_63caa88549a0ecc56efe7721a2ac204f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aedffdfce75c2fe6dd663a91a8ff789 = $(`<div id="html_7aedffdfce75c2fe6dd663a91a8ff789" style="width: 100.0%; height: 100.0%;">9. Verwey Museum Haarlem</div>`)[0];
+                popup_63caa88549a0ecc56efe7721a2ac204f.setContent(html_7aedffdfce75c2fe6dd663a91a8ff789);
+            
+        
+
+        circle_marker_ebb5107c5f629bce16b9611c0eab27e4.bindPopup(popup_63caa88549a0ecc56efe7721a2ac204f)
+        ;
+
+        
+    
+    
+            var circle_marker_ebd8a60537e72781ae0c6e6a82bf13ae = L.circleMarker(
+                [52.3765894, 4.633628100000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_b7b6b83a4034759a6bf6991a772e14b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6079a88d8dfaf26d549bf585a02a865 = $(`<div id="html_c6079a88d8dfaf26d549bf585a02a865" style="width: 100.0%; height: 100.0%;">10. Frans Hals Museum</div>`)[0];
+                popup_b7b6b83a4034759a6bf6991a772e14b7.setContent(html_c6079a88d8dfaf26d549bf585a02a865);
+            
+        
+
+        circle_marker_ebd8a60537e72781ae0c6e6a82bf13ae.bindPopup(popup_b7b6b83a4034759a6bf6991a772e14b7)
+        ;
+
+        
+    
+    
+            var circle_marker_de93a9bcc2ffec68fa1bdadbad17224a = L.circleMarker(
+                [52.3786332, 4.631909400000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_fe3ddb2d66fe0108e3790c0a6f8134b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a2ecedb19eedba93fb6556d1cebc42b = $(`<div id="html_5a2ecedb19eedba93fb6556d1cebc42b" style="width: 100.0%; height: 100.0%;">11. Canvas Tattoo & Barber</div>`)[0];
+                popup_fe3ddb2d66fe0108e3790c0a6f8134b6.setContent(html_5a2ecedb19eedba93fb6556d1cebc42b);
+            
+        
+
+        circle_marker_de93a9bcc2ffec68fa1bdadbad17224a.bindPopup(popup_fe3ddb2d66fe0108e3790c0a6f8134b6)
+        ;
+
+        
+    
+    
+            var circle_marker_eb74249e25b1c4383e08087ebacf824f = L.circleMarker(
+                [52.3811903, 4.6325202],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_de655eb3567ec6cd92185fc8e00790d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d36a46573a24e80d692c1a5f3aa97c06 = $(`<div id="html_d36a46573a24e80d692c1a5f3aa97c06" style="width: 100.0%; height: 100.0%;">12. Galerie Annee</div>`)[0];
+                popup_de655eb3567ec6cd92185fc8e00790d7.setContent(html_d36a46573a24e80d692c1a5f3aa97c06);
+            
+        
+
+        circle_marker_eb74249e25b1c4383e08087ebacf824f.bindPopup(popup_de655eb3567ec6cd92185fc8e00790d7)
+        ;
+
+        
+    
+    
+            var circle_marker_13db4659fb0acde61b6d0cd2834f71ab = L.circleMarker(
+                [52.3822678, 4.6353118],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_6b508b250a1b10682b12573102ba1a65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af7168370112f3c2804e3616a4c07e02 = $(`<div id="html_af7168370112f3c2804e3616a4c07e02" style="width: 100.0%; height: 100.0%;">13. Ten Boom Museum</div>`)[0];
+                popup_6b508b250a1b10682b12573102ba1a65.setContent(html_af7168370112f3c2804e3616a4c07e02);
+            
+        
+
+        circle_marker_13db4659fb0acde61b6d0cd2834f71ab.bindPopup(popup_6b508b250a1b10682b12573102ba1a65)
+        ;
+
+        
+    
+    
+            var circle_marker_070612c7da763099c529c2f77bcf6618 = L.circleMarker(
+                [52.3813779, 4.6350106],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_42c1e5aa03accab077f2d6990444160f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a95efd824d2b2ce9a30dddcc29dbb483 = $(`<div id="html_a95efd824d2b2ce9a30dddcc29dbb483" style="width: 100.0%; height: 100.0%;">14. Town Hall Haarlem</div>`)[0];
+                popup_42c1e5aa03accab077f2d6990444160f.setContent(html_a95efd824d2b2ce9a30dddcc29dbb483);
+            
+        
+
+        circle_marker_070612c7da763099c529c2f77bcf6618.bindPopup(popup_42c1e5aa03accab077f2d6990444160f)
+        ;
+
+        
+    
+    
+            var circle_marker_9c3e58a3753955a24ec45d2d6e307c12 = L.circleMarker(
+                [52.38115209999999, 4.636040200000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_20ffb655b09937da6fa6679a9664dad4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd26ac7d6ccdbe36409cb7bd48f8353d = $(`<div id="html_fd26ac7d6ccdbe36409cb7bd48f8353d" style="width: 100.0%; height: 100.0%;">15. De Hallen Haarlem</div>`)[0];
+                popup_20ffb655b09937da6fa6679a9664dad4.setContent(html_fd26ac7d6ccdbe36409cb7bd48f8353d);
+            
+        
+
+        circle_marker_9c3e58a3753955a24ec45d2d6e307c12.bindPopup(popup_20ffb655b09937da6fa6679a9664dad4)
+        ;
+
+        
+    
+    
+            var circle_marker_f69ef49e904faa97fdf8a1654b39ed81 = L.circleMarker(
+                [52.3811105, 4.636207800000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_8c9348335fa7e1f928ee41cc916c90e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a388d117bfb0cf6beb8e0aae3d2af257 = $(`<div id="html_a388d117bfb0cf6beb8e0aae3d2af257" style="width: 100.0%; height: 100.0%;">16. Archeological Museum Haarlem</div>`)[0];
+                popup_8c9348335fa7e1f928ee41cc916c90e6.setContent(html_a388d117bfb0cf6beb8e0aae3d2af257);
+            
+        
+
+        circle_marker_f69ef49e904faa97fdf8a1654b39ed81.bindPopup(popup_8c9348335fa7e1f928ee41cc916c90e6)
+        ;
+
+        
+    
+    
+            var circle_marker_f53686399dc4a5599cd094466dd07eec = L.circleMarker(
+                [52.38128799999999, 4.636436799999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_87e71cb909f2daec05b812298222b544 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73e185348b8f157ceee96c89a71d6eae = $(`<div id="html_73e185348b8f157ceee96c89a71d6eae" style="width: 100.0%; height: 100.0%;">17. De Vishal</div>`)[0];
+                popup_87e71cb909f2daec05b812298222b544.setContent(html_73e185348b8f157ceee96c89a71d6eae);
+            
+        
+
+        circle_marker_f53686399dc4a5599cd094466dd07eec.bindPopup(popup_87e71cb909f2daec05b812298222b544)
+        ;
+
+        
+    
+    
+            var circle_marker_5426480dffa35d6b2c4bd1c81defbb0e = L.circleMarker(
+                [52.3810706, 4.6373349],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_3d14196158df20edfa84c602f866f63c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c73672be79fb3b0e8a42db8d28cbcb9f = $(`<div id="html_c73672be79fb3b0e8a42db8d28cbcb9f" style="width: 100.0%; height: 100.0%;">18. The St. Bavo Church in Haarlem</div>`)[0];
+                popup_3d14196158df20edfa84c602f866f63c.setContent(html_c73672be79fb3b0e8a42db8d28cbcb9f);
+            
+        
+
+        circle_marker_5426480dffa35d6b2c4bd1c81defbb0e.bindPopup(popup_3d14196158df20edfa84c602f866f63c)
+        ;
+
+        
+    
+    
+            var circle_marker_416e88b1dc26001e6e4fbf619ca85eff = L.circleMarker(
+                [52.3804403, 4.639363200000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_671834bb3b55f4d696fe42c4fa55d23c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1db762d8f184f2924dc7938d4de12990 = $(`<div id="html_1db762d8f184f2924dc7938d4de12990" style="width: 100.0%; height: 100.0%;">19. Pieter Teylers Huis</div>`)[0];
+                popup_671834bb3b55f4d696fe42c4fa55d23c.setContent(html_1db762d8f184f2924dc7938d4de12990);
+            
+        
+
+        circle_marker_416e88b1dc26001e6e4fbf619ca85eff.bindPopup(popup_671834bb3b55f4d696fe42c4fa55d23c)
+        ;
+
+        
+    
+    
+            var circle_marker_dd0d3b00940f7d159475bcf5aba79d3f = L.circleMarker(
+                [52.3803511, 4.640344799999998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_6a9a7ef9946ebd5c215302508a9af286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f7d8cd0b8449a96156ea08a8d671f9c = $(`<div id="html_7f7d8cd0b8449a96156ea08a8d671f9c" style="width: 100.0%; height: 100.0%;">20. Teylers Museum</div>`)[0];
+                popup_6a9a7ef9946ebd5c215302508a9af286.setContent(html_7f7d8cd0b8449a96156ea08a8d671f9c);
+            
+        
+
+        circle_marker_dd0d3b00940f7d159475bcf5aba79d3f.bindPopup(popup_6a9a7ef9946ebd5c215302508a9af286)
+        ;
+
+        
+    
+    
+            var poly_line_8f81c21b0be5428c1a457e149ec6f16d = L.polyline(
+                [[52.3803511, 4.640344799999998], [52.3800082, 4.6387061], [52.38051730000001, 4.6392855], [52.37957600000001, 4.636320400000001], [52.3782319, 4.6357683], [52.3774229, 4.636914], [52.3772354, 4.6343407], [52.3770731, 4.634051200000001], [52.377085, 4.634072999999999], [52.3765894, 4.633628100000001], [52.3786332, 4.631909400000001], [52.3811903, 4.6325202], [52.3822678, 4.6353118], [52.3813779, 4.6350106], [52.38115209999999, 4.636040200000001], [52.3811105, 4.636207800000001], [52.38128799999999, 4.636436799999998], [52.3810706, 4.6373349], [52.3804403, 4.639363200000001], [52.3803511, 4.640344799999998]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+            var circle_marker_bac311af322406ca1a505792d7300dd0 = L.circleMarker(
+                [52.3805162, 4.6465988],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_cdeed81d82ddcd6c792303ddf88f42af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_002280e441a47f6d6ef9963c24e1c96e = $(`<div id="html_002280e441a47f6d6ef9963c24e1c96e" style="width: 100.0%; height: 100.0%;">Amsterdamse Poort, Haarlem</div>`)[0];
+                popup_cdeed81d82ddcd6c792303ddf88f42af.setContent(html_002280e441a47f6d6ef9963c24e1c96e);
+            
+        
+
+        circle_marker_bac311af322406ca1a505792d7300dd0.bindPopup(popup_cdeed81d82ddcd6c792303ddf88f42af)
+        ;
+
+        
+    
+    
+            var circle_marker_03ae5bed3437bcdbf9c9e0df85be71af = L.circleMarker(
+                [52.39047799999999, 4.6380579],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_535a8d2fd0af1f57cc3849a3dde60865 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79f76b6b28965fd731b0f6f6eee713e4 = $(`<div id="html_79f76b6b28965fd731b0f6f6eee713e4" style="width: 100.0%; height: 100.0%;">Het Dolhuys</div>`)[0];
+                popup_535a8d2fd0af1f57cc3849a3dde60865.setContent(html_79f76b6b28965fd731b0f6f6eee713e4);
+            
+        
+
+        circle_marker_03ae5bed3437bcdbf9c9e0df85be71af.bindPopup(popup_535a8d2fd0af1f57cc3849a3dde60865)
+        ;
+
+        
+    
+    
+            var circle_marker_e07d5a7a9051dd475190f43cac9c1981 = L.circleMarker(
+                [52.3725518, 4.6620656],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_fbc3cac800e02a536c00e0161608fa6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7287fdf0f8cf207d8a3c6a257a9af1ba = $(`<div id="html_7287fdf0f8cf207d8a3c6a257a9af1ba" style="width: 100.0%; height: 100.0%;">Burgemeester Reinaldapark</div>`)[0];
+                popup_fbc3cac800e02a536c00e0161608fa6f.setContent(html_7287fdf0f8cf207d8a3c6a257a9af1ba);
+            
+        
+
+        circle_marker_e07d5a7a9051dd475190f43cac9c1981.bindPopup(popup_fbc3cac800e02a536c00e0161608fa6f)
+        ;
+
+        
+    
+    
+            var circle_marker_19935270cf82bd4e0923911b7bf48ccd = L.circleMarker(
+                [52.39611109999999, 4.635833299999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_6893dc567aa5092a6cb91ff01fc71b62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c7ce751feeae56a7cfab5b677028b6c = $(`<div id="html_3c7ce751feeae56a7cfab5b677028b6c" style="width: 100.0%; height: 100.0%;">Haarlemmer Kweektuin</div>`)[0];
+                popup_6893dc567aa5092a6cb91ff01fc71b62.setContent(html_3c7ce751feeae56a7cfab5b677028b6c);
+            
+        
+
+        circle_marker_19935270cf82bd4e0923911b7bf48ccd.bindPopup(popup_6893dc567aa5092a6cb91ff01fc71b62)
+        ;
+
+        
+    
+    
+            var circle_marker_dd0fcb56d1f05a4d7bdfec4d56729604 = L.circleMarker(
+                [52.3838902, 4.642683799999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_1b44fc2376655edc98d7f49e11340d42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8ddbd5efe12a090f80aa7f71ecb9ebe = $(`<div id="html_f8ddbd5efe12a090f80aa7f71ecb9ebe" style="width: 100.0%; height: 100.0%;">Windmill De Adriaan (1779)</div>`)[0];
+                popup_1b44fc2376655edc98d7f49e11340d42.setContent(html_f8ddbd5efe12a090f80aa7f71ecb9ebe);
+            
+        
+
+        circle_marker_dd0fcb56d1f05a4d7bdfec4d56729604.bindPopup(popup_1b44fc2376655edc98d7f49e11340d42)
+        ;
+
+        
+    
+    
+            var circle_marker_390c093b47a55a998d7ebcada40e3c4a = L.circleMarker(
+                [52.4122633, 4.641298900000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_6b470dff6441c5a6d2878fdec5114135 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d75de05ec288928158ab67b620c2c0ba = $(`<div id="html_d75de05ec288928158ab67b620c2c0ba" style="width: 100.0%; height: 100.0%;">Schoterbos</div>`)[0];
+                popup_6b470dff6441c5a6d2878fdec5114135.setContent(html_d75de05ec288928158ab67b620c2c0ba);
+            
+        
+
+        circle_marker_390c093b47a55a998d7ebcada40e3c4a.bindPopup(popup_6b470dff6441c5a6d2878fdec5114135)
+        ;
+
+        
+    
+    
+            var circle_marker_2c5dc76089d8045206a630aa4904a88a = L.circleMarker(
+                [52.3892523, 4.637936400000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_3a102ceda660e5ede5987fb51b2b53bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e8429278bacac2732dd00a9fe2b446c = $(`<div id="html_5e8429278bacac2732dd00a9fe2b446c" style="width: 100.0%; height: 100.0%;">De Bolwerken</div>`)[0];
+                popup_3a102ceda660e5ede5987fb51b2b53bb.setContent(html_5e8429278bacac2732dd00a9fe2b446c);
+            
+        
+
+        circle_marker_2c5dc76089d8045206a630aa4904a88a.bindPopup(popup_3a102ceda660e5ede5987fb51b2b53bb)
+        ;
+
+        
+    
+    
+            var circle_marker_591e31d60cc9c26d190260d020969f51 = L.circleMarker(
+                [52.37380570000001, 4.628766600000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_64c5030cb2568f03ebbfd677acc2d887 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88e0cca77aebab1a3fc3beac8bc264d5 = $(`<div id="html_88e0cca77aebab1a3fc3beac8bc264d5" style="width: 100.0%; height: 100.0%;">CarlaH Hairstudio</div>`)[0];
+                popup_64c5030cb2568f03ebbfd677acc2d887.setContent(html_88e0cca77aebab1a3fc3beac8bc264d5);
+            
+        
+
+        circle_marker_591e31d60cc9c26d190260d020969f51.bindPopup(popup_64c5030cb2568f03ebbfd677acc2d887)
+        ;
+
+        
+    
+    
+            var circle_marker_d3216c55a645499247becc45803232e8 = L.circleMarker(
+                [52.38636330000001, 4.638491699999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_f9020fdd366d3f6f9fa86fec78c235f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ade7f153e6271961a6dc4fbcdf334c9 = $(`<div id="html_6ade7f153e6271961a6dc4fbcdf334c9" style="width: 100.0%; height: 100.0%;">Rent a Bike Haarlem</div>`)[0];
+                popup_f9020fdd366d3f6f9fa86fec78c235f6.setContent(html_6ade7f153e6271961a6dc4fbcdf334c9);
+            
+        
+
+        circle_marker_d3216c55a645499247becc45803232e8.bindPopup(popup_f9020fdd366d3f6f9fa86fec78c235f6)
+        ;
+
+        
+    
+    
+            var circle_marker_4906e86bfcf172abc0e0a2b3202289db = L.circleMarker(
+                [52.402916, 4.639642],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_418bb070d93c7d245389bdc7b3d0387a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e12b70209a4aaebd33a21791b6f78e5 = $(`<div id="html_0e12b70209a4aaebd33a21791b6f78e5" style="width: 100.0%; height: 100.0%;">Zaanenpark</div>`)[0];
+                popup_418bb070d93c7d245389bdc7b3d0387a.setContent(html_0e12b70209a4aaebd33a21791b6f78e5);
+            
+        
+
+        circle_marker_4906e86bfcf172abc0e0a2b3202289db.bindPopup(popup_418bb070d93c7d245389bdc7b3d0387a)
+        ;
+
+        
+    
+    
+            var circle_marker_4e5f5533179313350be946327df534ea = L.circleMarker(
+                [52.4019492, 4.6660467],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_4302a21c37f4ce569793d1a9559c14f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9113f74c87d892c65ca1c183c72d3203 = $(`<div id="html_9113f74c87d892c65ca1c183c72d3203" style="width: 100.0%; height: 100.0%;">Schoteroog (Spaarnwoude Park)</div>`)[0];
+                popup_4302a21c37f4ce569793d1a9559c14f2.setContent(html_9113f74c87d892c65ca1c183c72d3203);
+            
+        
+
+        circle_marker_4e5f5533179313350be946327df534ea.bindPopup(popup_4302a21c37f4ce569793d1a9559c14f2)
+        ;
+
+        
+    
+    
+            var circle_marker_b997afe0b763bebff303467b949d6e7b = L.circleMarker(
+                [52.3956975, 4.665405799999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_2ce2c46c37d9f37a9ddef1f56a66aa2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a19e12bd7f3e519f10899168317606f = $(`<div id="html_0a19e12bd7f3e519f10899168317606f" style="width: 100.0%; height: 100.0%;">NZH Transport Museum</div>`)[0];
+                popup_2ce2c46c37d9f37a9ddef1f56a66aa2a.setContent(html_0a19e12bd7f3e519f10899168317606f);
+            
+        
+
+        circle_marker_b997afe0b763bebff303467b949d6e7b.bindPopup(popup_2ce2c46c37d9f37a9ddef1f56a66aa2a)
+        ;
+
+        
+    
+    
+            var circle_marker_9be6d949cc2302e3013cb5da5611c23c = L.circleMarker(
+                [52.3866872, 4.6388792],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_6a5643d1595f4ddb4c4ddcd985c930d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_597ff5e520020ddb17b7c4a484526a44 = $(`<div id="html_597ff5e520020ddb17b7c4a484526a44" style="width: 100.0%; height: 100.0%;">Interparking Station</div>`)[0];
+                popup_6a5643d1595f4ddb4c4ddcd985c930d4.setContent(html_597ff5e520020ddb17b7c4a484526a44);
+            
+        
+
+        circle_marker_9be6d949cc2302e3013cb5da5611c23c.bindPopup(popup_6a5643d1595f4ddb4c4ddcd985c930d4)
+        ;
+
+        
+    
+    
+            var circle_marker_e7ee580deb010916cd01a5a85e77ab1b = L.circleMarker(
+                [52.3881781, 4.614243099999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_52455d034b482c7be908e1db12ef81be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_417a6d14f291efbac30fbf7fda3d92d8 = $(`<div id="html_417a6d14f291efbac30fbf7fda3d92d8" style="width: 100.0%; height: 100.0%;">UrbanCamperSpot Haarlem & Zandvoort</div>`)[0];
+                popup_52455d034b482c7be908e1db12ef81be.setContent(html_417a6d14f291efbac30fbf7fda3d92d8);
+            
+        
+
+        circle_marker_e7ee580deb010916cd01a5a85e77ab1b.bindPopup(popup_52455d034b482c7be908e1db12ef81be)
+        ;
+
+        
+    
+    
+            var circle_marker_8cff64c6c50051f314c89a1101203b57 = L.circleMarker(
+                [52.38465579999999, 4.637422700000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_16ab7a0228df57e93855b146868e1b40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97fc5b03135e9d62c9e0755c93376c70 = $(`<div id="html_97fc5b03135e9d62c9e0755c93376c70" style="width: 100.0%; height: 100.0%;">Huis Barnaart</div>`)[0];
+                popup_16ab7a0228df57e93855b146868e1b40.setContent(html_97fc5b03135e9d62c9e0755c93376c70);
+            
+        
+
+        circle_marker_8cff64c6c50051f314c89a1101203b57.bindPopup(popup_16ab7a0228df57e93855b146868e1b40)
+        ;
+
+        
+    
+    
+            var circle_marker_c07205e6c9339144fccfd9deb18476d9 = L.circleMarker(
+                [52.3731305, 4.6320372],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_2a957c8047f97c21e4c34a3febd1ce8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_026432b6110fb195bc56aaa5088c49d1 = $(`<div id="html_026432b6110fb195bc56aaa5088c49d1" style="width: 100.0%; height: 100.0%;">Frederikspark</div>`)[0];
+                popup_2a957c8047f97c21e4c34a3febd1ce8d.setContent(html_026432b6110fb195bc56aaa5088c49d1);
+            
+        
+
+        circle_marker_c07205e6c9339144fccfd9deb18476d9.bindPopup(popup_2a957c8047f97c21e4c34a3febd1ce8d)
+        ;
+
+        
+    
+    
+            var circle_marker_0adbcfdd9eb85cc11d24012fe5992329 = L.circleMarker(
+                [52.3964196, 4.658777800000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_c8f74e50ddde1d3c0a9d1cadce11dc4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1117b40f76adae4745b2032864130bba = $(`<div id="html_1117b40f76adae4745b2032864130bba" style="width: 100.0%; height: 100.0%;">Irisartwork Haarlem</div>`)[0];
+                popup_c8f74e50ddde1d3c0a9d1cadce11dc4b.setContent(html_1117b40f76adae4745b2032864130bba);
+            
+        
+
+        circle_marker_0adbcfdd9eb85cc11d24012fe5992329.bindPopup(popup_c8f74e50ddde1d3c0a9d1cadce11dc4b)
+        ;
+
+        
+    
+    
+            var circle_marker_b3c2aea8d22833e68408bd3b9a07d8be = L.circleMarker(
+                [52.37181529999999, 4.6306204],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_919cc9ef6ff834fcd531f4c946a25121 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_837479977aad9acba49abb8bd2c3b522 = $(`<div id="html_837479977aad9acba49abb8bd2c3b522" style="width: 100.0%; height: 100.0%;">Pavilion Welgelegen</div>`)[0];
+                popup_919cc9ef6ff834fcd531f4c946a25121.setContent(html_837479977aad9acba49abb8bd2c3b522);
+            
+        
+
+        circle_marker_b3c2aea8d22833e68408bd3b9a07d8be.bindPopup(popup_919cc9ef6ff834fcd531f4c946a25121)
+        ;
+
+        
+    
+    
+            var circle_marker_e8dd9c6809079d687a9b087440f803ef = L.circleMarker(
+                [52.3773563, 4.630824800000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_32943df64de1f0a81d10990beb01ddb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_780ddba909fc5c320a83888c9cb5318c = $(`<div id="html_780ddba909fc5c320a83888c9cb5318c" style="width: 100.0%; height: 100.0%;">Proveniershuis</div>`)[0];
+                popup_32943df64de1f0a81d10990beb01ddb7.setContent(html_780ddba909fc5c320a83888c9cb5318c);
+            
+        
+
+        circle_marker_e8dd9c6809079d687a9b087440f803ef.bindPopup(popup_32943df64de1f0a81d10990beb01ddb7)
+        ;
+
+        
+    
+    
+            var circle_marker_ab904a8794e69a5225cc7df9d61bdefa = L.circleMarker(
+                [52.3683583, 4.627104399999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_9a9cba65ec8ed7b37087ba030912e576 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44a1c8ab5901984656dce612486409f3 = $(`<div id="html_44a1c8ab5901984656dce612486409f3" style="width: 100.0%; height: 100.0%;">Hondenlosloopgebied Haarlemmerhout</div>`)[0];
+                popup_9a9cba65ec8ed7b37087ba030912e576.setContent(html_44a1c8ab5901984656dce612486409f3);
+            
+        
+
+        circle_marker_ab904a8794e69a5225cc7df9d61bdefa.bindPopup(popup_9a9cba65ec8ed7b37087ba030912e576)
+        ;
+
+        
+    
+    
+            var circle_marker_b58742a4e528895d6d4c17af34908d4b = L.circleMarker(
+                [52.393593, 4.641331000000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_79785e609fa1da26c0272e5b297dfabb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a16827774f5261726b4978ff23fd5ef = $(`<div id="html_0a16827774f5261726b4978ff23fd5ef" style="width: 100.0%; height: 100.0%;">CopyNet Print & Sign</div>`)[0];
+                popup_79785e609fa1da26c0272e5b297dfabb.setContent(html_0a16827774f5261726b4978ff23fd5ef);
+            
+        
+
+        circle_marker_b58742a4e528895d6d4c17af34908d4b.bindPopup(popup_79785e609fa1da26c0272e5b297dfabb)
+        ;
+
+        
+    
+    
+            var circle_marker_7c03f4d99e907b00f4d3980e38803bd3 = L.circleMarker(
+                [52.38330069999999, 4.6718508],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_900f4fbcb19257353135e9fc1c4b5c1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06f088c4feb2b450c00be536ea4c9dea = $(`<div id="html_06f088c4feb2b450c00be536ea4c9dea" style="width: 100.0%; height: 100.0%;">P+R Haarlem Spaarnwoude</div>`)[0];
+                popup_900f4fbcb19257353135e9fc1c4b5c1e.setContent(html_06f088c4feb2b450c00be536ea4c9dea);
+            
+        
+
+        circle_marker_7c03f4d99e907b00f4d3980e38803bd3.bindPopup(popup_900f4fbcb19257353135e9fc1c4b5c1e)
+        ;
+
+        
+    
+    
+            var circle_marker_15835664471fdf45166b3c7af5408f38 = L.circleMarker(
+                [52.3910141, 4.6531167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_f7f3eea3e14a9067a2e1e6848765afd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_460095eb15af96e4ea2582d99da8c329 = $(`<div id="html_460095eb15af96e4ea2582d99da8c329" style="width: 100.0%; height: 100.0%;">Barrel Organ Museum Haarlem</div>`)[0];
+                popup_f7f3eea3e14a9067a2e1e6848765afd8.setContent(html_460095eb15af96e4ea2582d99da8c329);
+            
+        
+
+        circle_marker_15835664471fdf45166b3c7af5408f38.bindPopup(popup_f7f3eea3e14a9067a2e1e6848765afd8)
+        ;
+
+        
+    
+    
+            var circle_marker_4d79e6a54dbcbae52e653e68963d72b4 = L.circleMarker(
+                [52.3818564, 4.6429233],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_40856c569997ffcf306a113cec9e12ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_943aff840f1909c67850b9b95436aee5 = $(`<div id="html_943aff840f1909c67850b9b95436aee5" style="width: 100.0%; height: 100.0%;">Teylers Hofje</div>`)[0];
+                popup_40856c569997ffcf306a113cec9e12ad.setContent(html_943aff840f1909c67850b9b95436aee5);
+            
+        
+
+        circle_marker_4d79e6a54dbcbae52e653e68963d72b4.bindPopup(popup_40856c569997ffcf306a113cec9e12ad)
+        ;
+
+        
+    
+    
+            var circle_marker_c295ac328de997c1dfd6bca7238fbb21 = L.circleMarker(
+                [52.34744269999999, 4.6702932],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_2d19e48d4baaeb0e26f8bb72b16c46fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53b7b9340c1b5f9e2d0d398973e56421 = $(`<div id="html_53b7b9340c1b5f9e2d0d398973e56421" style="width: 100.0%; height: 100.0%;">Kunstfort Vijfhuizen</div>`)[0];
+                popup_2d19e48d4baaeb0e26f8bb72b16c46fd.setContent(html_53b7b9340c1b5f9e2d0d398973e56421);
+            
+        
+
+        circle_marker_c295ac328de997c1dfd6bca7238fbb21.bindPopup(popup_2d19e48d4baaeb0e26f8bb72b16c46fd)
+        ;
+
+        
+    
+    
+            var circle_marker_1175833d200fc725d2472fc09cc04f67 = L.circleMarker(
+                [52.38400519999999, 4.631480600000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_fae50be550baffa6230ecba74ec24f33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a58191e38eb4aee93ed42ac434169cb3 = $(`<div id="html_a58191e38eb4aee93ed42ac434169cb3" style="width: 100.0%; height: 100.0%;">Lutherse Hofje</div>`)[0];
+                popup_fae50be550baffa6230ecba74ec24f33.setContent(html_a58191e38eb4aee93ed42ac434169cb3);
+            
+        
+
+        circle_marker_1175833d200fc725d2472fc09cc04f67.bindPopup(popup_fae50be550baffa6230ecba74ec24f33)
+        ;
+
+        
+    
+    
+            var circle_marker_df0df66fdfbadb2dff44cc4f0b82093c = L.circleMarker(
+                [52.3702934, 4.613909],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_e89960683aeb10ccb31868f073511b30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97106cca2a7edbd1e039cf511d29b678 = $(`<div id="html_97106cca2a7edbd1e039cf511d29b678" style="width: 100.0%; height: 100.0%;">Gravida</div>`)[0];
+                popup_e89960683aeb10ccb31868f073511b30.setContent(html_97106cca2a7edbd1e039cf511d29b678);
+            
+        
+
+        circle_marker_df0df66fdfbadb2dff44cc4f0b82093c.bindPopup(popup_e89960683aeb10ccb31868f073511b30)
+        ;
+
+        
+    
+    
+            var circle_marker_0cad47c15f6c516126e72096626ad3d5 = L.circleMarker(
+                [52.4240404, 4.653084499999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_1a5026460d45dfafaf96482e372dc3b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d90062401438da0c216147bdc64a98ad = $(`<div id="html_d90062401438da0c216147bdc64a98ad" style="width: 100.0%; height: 100.0%;">Volkstuindersvereniging Zonder Werken Niets</div>`)[0];
+                popup_1a5026460d45dfafaf96482e372dc3b2.setContent(html_d90062401438da0c216147bdc64a98ad);
+            
+        
+
+        circle_marker_0cad47c15f6c516126e72096626ad3d5.bindPopup(popup_1a5026460d45dfafaf96482e372dc3b2)
+        ;
+
+        
+    
+    
+            var circle_marker_7c5514faab45b53f896a291e2d13b961 = L.circleMarker(
+                [52.3673235, 4.666926300000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_32f4fefd076a82dd14f13fee8368aec4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_817e54f4b1a772ec28347fd9a6358c0a = $(`<div id="html_817e54f4b1a772ec28347fd9a6358c0a" style="width: 100.0%; height: 100.0%;">Volkstuinvereniging Poelpoldervreugde</div>`)[0];
+                popup_32f4fefd076a82dd14f13fee8368aec4.setContent(html_817e54f4b1a772ec28347fd9a6358c0a);
+            
+        
+
+        circle_marker_7c5514faab45b53f896a291e2d13b961.bindPopup(popup_32f4fefd076a82dd14f13fee8368aec4)
+        ;
+
+        
+    
+    
+            var circle_marker_576eb5c54575bbecdb1e79c04ccd18d9 = L.circleMarker(
+                [52.38965510000001, 4.6523458],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_b4bb72c331db284113e47a2eacf4ab68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e47a7f5baf0f31ca140d1c4a02ee2e0 = $(`<div id="html_2e47a7f5baf0f31ca140d1c4a02ee2e0" style="width: 100.0%; height: 100.0%;">Kunstuitleen.nl - Kunstuitleen Nederland</div>`)[0];
+                popup_b4bb72c331db284113e47a2eacf4ab68.setContent(html_2e47a7f5baf0f31ca140d1c4a02ee2e0);
+            
+        
+
+        circle_marker_576eb5c54575bbecdb1e79c04ccd18d9.bindPopup(popup_b4bb72c331db284113e47a2eacf4ab68)
+        ;
+
+        
+    
+    
+            var circle_marker_9bc88df09c9de39e3e27be0c5d3efdf9 = L.circleMarker(
+                [52.3639897, 4.638944500000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_3b95019c0c53aeb1f6776f307dbb1d4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b81ce921fbb811dfa83d87b8a7100b16 = $(`<div id="html_b81ce921fbb811dfa83d87b8a7100b16" style="width: 100.0%; height: 100.0%;">Foundation Free Waterland</div>`)[0];
+                popup_3b95019c0c53aeb1f6776f307dbb1d4e.setContent(html_b81ce921fbb811dfa83d87b8a7100b16);
+            
+        
+
+        circle_marker_9bc88df09c9de39e3e27be0c5d3efdf9.bindPopup(popup_3b95019c0c53aeb1f6776f307dbb1d4e)
+        ;
+
+        
+    
+    
+            var circle_marker_f1106df428d243afc05612b562975f27 = L.circleMarker(
+                [52.40578979999999, 4.659794999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_a31238c0d797f38e1735e1896c7ba0af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7192bf8f103d10785c20a80501380e76 = $(`<div id="html_7192bf8f103d10785c20a80501380e76" style="width: 100.0%; height: 100.0%;">Wie Zaait Zal Oogsten</div>`)[0];
+                popup_a31238c0d797f38e1735e1896c7ba0af.setContent(html_7192bf8f103d10785c20a80501380e76);
+            
+        
+
+        circle_marker_f1106df428d243afc05612b562975f27.bindPopup(popup_a31238c0d797f38e1735e1896c7ba0af)
+        ;
+
+        
+    
+    
+            var circle_marker_5496f584a4ed87071c469162709a1ab1 = L.circleMarker(
+                [52.3799075, 4.640558500000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_04ac3876ac3d8bf92da9bb9f084b5360 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04acbf51c20913b0ca0aca6e24a85939 = $(`<div id="html_04acbf51c20913b0ca0aca6e24a85939" style="width: 100.0%; height: 100.0%;">Rederij 't Smidtje</div>`)[0];
+                popup_04ac3876ac3d8bf92da9bb9f084b5360.setContent(html_04acbf51c20913b0ca0aca6e24a85939);
+            
+        
+
+        circle_marker_5496f584a4ed87071c469162709a1ab1.bindPopup(popup_04ac3876ac3d8bf92da9bb9f084b5360)
+        ;
+
+        
+    
+    
+            var circle_marker_1945626268aff4d4bb12ba9952ca1871 = L.circleMarker(
+                [52.3800861, 4.6293744],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_a71a071ebac89f004808c29f1b16b33e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04755fcab1e1c55023d78f5049bdc1cc = $(`<div id="html_04755fcab1e1c55023d78f5049bdc1cc" style="width: 100.0%; height: 100.0%;">Wo-ow Ceramics</div>`)[0];
+                popup_a71a071ebac89f004808c29f1b16b33e.setContent(html_04755fcab1e1c55023d78f5049bdc1cc);
+            
+        
+
+        circle_marker_1945626268aff4d4bb12ba9952ca1871.bindPopup(popup_a71a071ebac89f004808c29f1b16b33e)
+        ;
+
+        
+    
+    
+            var circle_marker_6b4113bcb6cd41c73a9e04f39f15931f = L.circleMarker(
+                [52.3824308, 4.609922100000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_76271de25f3d12ee57a4667951f94b35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1af9ba2cefb40874cb9f77c8a44e6ee = $(`<div id="html_b1af9ba2cefb40874cb9f77c8a44e6ee" style="width: 100.0%; height: 100.0%;">Wij Telen Groente op het Land</div>`)[0];
+                popup_76271de25f3d12ee57a4667951f94b35.setContent(html_b1af9ba2cefb40874cb9f77c8a44e6ee);
+            
+        
+
+        circle_marker_6b4113bcb6cd41c73a9e04f39f15931f.bindPopup(popup_76271de25f3d12ee57a4667951f94b35)
+        ;
+
+        
+    
+    
+            var circle_marker_b619c2d5062b9627f64f09fa1de53597 = L.circleMarker(
+                [52.385379, 4.662705000000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_19600e3aa8dc2f6e0ac0e33e85a734cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_420a7919ba19a80b2244c8ea5904cae5 = $(`<div id="html_420a7919ba19a80b2244c8ea5904cae5" style="width: 100.0%; height: 100.0%;">Tuin Totaal</div>`)[0];
+                popup_19600e3aa8dc2f6e0ac0e33e85a734cf.setContent(html_420a7919ba19a80b2244c8ea5904cae5);
+            
+        
+
+        circle_marker_b619c2d5062b9627f64f09fa1de53597.bindPopup(popup_19600e3aa8dc2f6e0ac0e33e85a734cf)
+        ;
+
+        
+    
+    
+            var circle_marker_b13904d29dffb1e12c14bd226c1fb215 = L.circleMarker(
+                [52.39498829999999, 4.6419712],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_c3cd79756600dd02a87bbf9e559a03b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b8229475324a5879ed317f34a5e03aa = $(`<div id="html_6b8229475324a5879ed317f34a5e03aa" style="width: 100.0%; height: 100.0%;">Kanis Kunst en Lijsten</div>`)[0];
+                popup_c3cd79756600dd02a87bbf9e559a03b9.setContent(html_6b8229475324a5879ed317f34a5e03aa);
+            
+        
+
+        circle_marker_b13904d29dffb1e12c14bd226c1fb215.bindPopup(popup_c3cd79756600dd02a87bbf9e559a03b9)
+        ;
+
+        
+    
+    
+            var circle_marker_d00b7d52f3638dfac7b4357815fb85da = L.circleMarker(
+                [52.3985248, 4.660172000000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_8e5535f7badf5113fec53352ed54ba31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be4553c7f822572fc7c8e0446eed09d7 = $(`<div id="html_be4553c7f822572fc7c8e0446eed09d7" style="width: 100.0%; height: 100.0%;">Ateliers Het Hoofdkantoor</div>`)[0];
+                popup_8e5535f7badf5113fec53352ed54ba31.setContent(html_be4553c7f822572fc7c8e0446eed09d7);
+            
+        
+
+        circle_marker_d00b7d52f3638dfac7b4357815fb85da.bindPopup(popup_8e5535f7badf5113fec53352ed54ba31)
+        ;
+
+        
+    
+    
+            var circle_marker_abe984017ca93d3b0854d9b4df77609b = L.circleMarker(
+                [52.3929146, 4.6414164],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_638d6d40ab508f514fb084961c3586d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cb043adf6512b0ab9eb8da1e6d71b90 = $(`<div id="html_7cb043adf6512b0ab9eb8da1e6d71b90" style="width: 100.0%; height: 100.0%;">MiMo kunst en koffie meets Cactus Cafe</div>`)[0];
+                popup_638d6d40ab508f514fb084961c3586d9.setContent(html_7cb043adf6512b0ab9eb8da1e6d71b90);
+            
+        
+
+        circle_marker_abe984017ca93d3b0854d9b4df77609b.bindPopup(popup_638d6d40ab508f514fb084961c3586d9)
+        ;
+
+        
+    
+    
+            var circle_marker_319382f37186a69a31fd5075dc0e0fbf = L.circleMarker(
+                [52.3655722, 4.6387048],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_014deeb572137bf2487daa313037538e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9efec81d1b20e916986a0308878eeeb3 = $(`<div id="html_9efec81d1b20e916986a0308878eeeb3" style="width: 100.0%; height: 100.0%;">Stichting Ecoring Haarlem</div>`)[0];
+                popup_014deeb572137bf2487daa313037538e.setContent(html_9efec81d1b20e916986a0308878eeeb3);
+            
+        
+
+        circle_marker_319382f37186a69a31fd5075dc0e0fbf.bindPopup(popup_014deeb572137bf2487daa313037538e)
+        ;
+
+        
+    
+    
+            var circle_marker_3fb3bac965d369cb9aba6a8a5959f33f = L.circleMarker(
+                [52.3896119, 4.652438000000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_4a2988f05ec35255808b94f34ff9fcf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55c8bce5c1d16d3775723358ae91733e = $(`<div id="html_55c8bce5c1d16d3775723358ae91733e" style="width: 100.0%; height: 100.0%;">Kunstaanbieding.nl</div>`)[0];
+                popup_4a2988f05ec35255808b94f34ff9fcf8.setContent(html_55c8bce5c1d16d3775723358ae91733e);
+            
+        
+
+        circle_marker_3fb3bac965d369cb9aba6a8a5959f33f.bindPopup(popup_4a2988f05ec35255808b94f34ff9fcf8)
+        ;
+
+        
+    
+    
+            var circle_marker_82cd7c42dbca36a978c86b4f6948fcc1 = L.circleMarker(
+                [52.38496349999999, 4.6637692],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_560ea7b826194305ab1274f844b3d925 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebca0c3f4c6b1f8637341ca12014d391 = $(`<div id="html_ebca0c3f4c6b1f8637341ca12014d391" style="width: 100.0%; height: 100.0%;">Meijer Hoveniers</div>`)[0];
+                popup_560ea7b826194305ab1274f844b3d925.setContent(html_ebca0c3f4c6b1f8637341ca12014d391);
+            
+        
+
+        circle_marker_82cd7c42dbca36a978c86b4f6948fcc1.bindPopup(popup_560ea7b826194305ab1274f844b3d925)
+        ;
+
+        
+    
+    
+            var circle_marker_2cc9fb077ccf4dc0db189d9a42211f08 = L.circleMarker(
+                [52.3739711, 4.6296305],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.1}
+            ).addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+        var popup_a8f867d04d838eee5c3d64c9a5c65132 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb3226fe0b36c7583c35bdbc3d2bc72b = $(`<div id="html_fb3226fe0b36c7583c35bdbc3d2bc72b" style="width: 100.0%; height: 100.0%;">Galerie Chez Freddy art & design</div>`)[0];
+                popup_a8f867d04d838eee5c3d64c9a5c65132.setContent(html_fb3226fe0b36c7583c35bdbc3d2bc72b);
+            
+        
+
+        circle_marker_2cc9fb077ccf4dc0db189d9a42211f08.bindPopup(popup_a8f867d04d838eee5c3d64c9a5c65132)
+        ;
+
+        
+    
+    
+            tile_layer_26ce8d6626e609e9fd5146362ae38ab7.addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+    
+            tile_layer_26ce8d6626e609e9fd5146362ae38ab7.addTo(map_77f3173a1cdb74c28caa1e16d971abd7);
+        
+</script>
+</html>
